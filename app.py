@@ -13,9 +13,9 @@ app = Flask(__name__)
 
 # --- Configuração Geral ---
 app.secret_key = 'coloque_uma_chave_secreta_aqui_12345' # !! MUDE ISSO !!
-PALAVRA_CHAVE_CORRETA = "PERIGO" # !! SUBSTITUA !!
-INICIO_PERMITIDO_STR = "2024-01-01 00:00:00" # !! AJUSTE !!
-FIM_PERMITIDO_STR = "2025-12-31 23:59:59" # !! AJUSTE !!
+PALAVRA_CHAVE_CORRETA = "VARREDURA" # !! SUBSTITUA !!
+INICIO_PERMITIDO_STR = "2025-07-23 21:00:00" # !! AJUSTE !!
+FIM_PERMITIDO_STR = "2025-07-24 00:40:00" # !! AJUSTE !!
 TIMEZONE_STR = 'America/Recife' # !! AJUSTE SE NECESSÁRIO !!
 
 try:
