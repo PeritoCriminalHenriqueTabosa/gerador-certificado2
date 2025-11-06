@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 # --- Configuração Geral ---
 app.secret_key = 'coloque_uma_chave_secreta_aqui_12345' # !! MUDE ISSO !!
-PALAVRA_CHAVE_CORRETA = "FORENSE" # !! SUBSTITUA !!
+PALAVRA_CHAVE_CORRETA = "COPA" # !! SUBSTITUA !!
 INICIO_PERMITIDO_STR = "2025-07-24 00:00:00" # !! AJUSTE !!
 FIM_PERMITIDO_STR = "2025-11-29 23:59:59" # !! AJUSTE !!
 TIMEZONE_STR = 'America/Recife' # !! AJUSTE SE NECESSÁRIO !!
@@ -222,6 +222,7 @@ if __name__ == '__main__':
     print(f"  - FONTE_NOME ('{FONTE_NOME}'), FONTE_CPF ('{FONTE_CPF}' Bold)")
     print("-" * 40)
     app.run(debug=True, host='0.0.0.0', port=5000)
+
 
 
 
